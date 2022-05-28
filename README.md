@@ -104,8 +104,7 @@ I used [OpenCore Legacy Patcher (OCLP)](https://github.com/dortania/OpenCore-Leg
 > - Hit on `Post Install Root Patcher`
 > - It should automatically detects which patch is available for the system, in my case, `Nvidia Kepler`.
 > - Hit on `Start Root Patching` and reboot the system.
-
-> ![oclp](images/oclp1.png) ![oclp](images/oclp2.png)
+ ![oclp](images/oclp1.png) ![oclp](images/oclp2.png)
 
 ## SETTING UP OPENCORE GUI
 
