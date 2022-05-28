@@ -1,8 +1,6 @@
 #  HUANANZHI X99-8M-F Hackintosh
 
-![main](images/main.jpg)
 
-![neo](images/neo.png)
 This repository contains my personal EFI configuration for my custom build.
 
 This is a multiboot system, with each OS (`Mac OS Monterey 12.4`, `Windows 11`, `Ubuntu 22 LTS`) running on its own storage. 
@@ -14,6 +12,11 @@ The guide is based on [Dortania's OpenCore Install Guide](https://dortania.githu
 I would recommend upgrading your BIOS if it is not on the latest version [FROM THE OFFICIAL SUPPORT PAGE](http://www.huananzhi.com/html/1/184/185/551.html)
 
 Some informations (Serial Number, MLB, ROM...) have been naturally changed. Update your `Config.plist` accordingly.
+
+
+![main](images/main.jpg)
+
+![neo](images/neo1.png)
 
 ## THE BUILD
 
