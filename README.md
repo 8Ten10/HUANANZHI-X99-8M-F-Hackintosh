@@ -1,5 +1,6 @@
 #  HUANANZHI X99-8M-F Hackintosh
 
+![npm](https://img.shields.io/badge/Built-Passing-orange.svg) ![npm](https://img.shields.io/badge/Bootloader-Opencore-blue) ![npm](https://img.shields.io/badge/Support%20MacOS-12.4-yellow) ![npm](https://img.shields.io/badge/Built%20by-Kevin%20T-green) 
 
 This repository contains my personal EFI configuration for my custom build.
 
@@ -76,7 +77,7 @@ You should Always do a `Clean Snapshot` (Cmd+Shift+R) with Propertree after any 
 
 `ONLY APPLY THIS PATCH IF YOU ARE RUNNING ON MAC OS 12 MONTEREY!!`
 
-Unfortunalely, starting on Mac OS Monterey, Apple has dropped native support for `Kepler dGPUs (600 - 800 series)`. My GT 710 being one of those, I'm required to patch the OS to have graphic acceleration. Remember that this only necessarily for `Monterey`. It is natively supported by any OS below Monterey.
+Unfortunalely, starting on Mac OS Monterey, Apple has dropped native support for `Kepler dGPUs (600 - 800 series)`. My GT 710 being one of them, I'm required to patch the OS to have graphic acceleration. Remember that this only necessarily if your OS is `Monterey`. It is natively supported by any OS below Monterey.
 
 I used [OpenCore Legacy Patcher (OCLP)](https://github.com/dortania/OpenCore-Legacy-Patcher/releases) , but [Geforce Kepler patcher](https://github.com/chris1111/Geforce-Kepler-patcher) from `Christ1111` could as well being used as they both Install Nvidia binaries files for macOS Monterey. The chcoice is yours.
 > - Dowload [OpenCore Legacy Patcher (OCLP)](https://github.com/dortania/OpenCore-Legacy-Patcher/releases)
