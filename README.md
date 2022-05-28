@@ -14,10 +14,8 @@ I would recommend upgrading your BIOS if it is not on the latest version [FROM T
 
 Some informations (Serial Number, MLB, ROM...) have been naturally changed. Update your `Config.plist` accordingly.
 
-![main](images/main.jpg)
-
-![neo](images/2.png)
-
+<p align="center"> <img width="750" height="650" src="images/main.jpg"> </p>
+<img src="images/2.png">
 
 
 ## Table of Contents
@@ -106,6 +104,8 @@ I used [OpenCore Legacy Patcher (OCLP)](https://github.com/dortania/OpenCore-Leg
 > - Hit on `Post Install Root Patcher`
 > - It should automatically detects which patch is available for the system, in my case, `Nvidia Kepler`.
 > - Hit on `Start Root Patching` and reboot the system.
+
+> ![oclp](images/oclp1.png) ![oclp](images/oclp2.png)
 
 ## SETTING UP OPENCORE GUI
 
