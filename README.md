@@ -16,7 +16,7 @@ Some informations (Serial Number, MLB, ROM...) have been naturally changed. Upda
 
 ![main](images/main.jpg)
 
-![neo](images/neo1.png)
+![neo](images/2.png)
 
 ## THE BUILD
 
