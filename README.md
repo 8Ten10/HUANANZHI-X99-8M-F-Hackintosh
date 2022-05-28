@@ -14,6 +14,22 @@ I would recommend upgrading your BIOS if it is not on the latest version [FROM T
 
 Some informations (Serial Number, MLB, ROM...) have been naturally changed. Update your `Config.plist` accordingly.
 
+## Table of Contents
+<!-- AUTO-GENERATED-CONTENT:START (TOC:collapse=true&collapseText="Click to expand") -->
+<details>
+<summary>Click to expand</summary>
+  
+* [THE BUILD](#the-build)
+* [BIOS SETTING](#bios-setting)
+* [TOOLS USED](#tools-used)
+* [MISCELLANEOUS](#miscellaneous)
+* [POST INSTALL VOLUME PATCH](#post-install-volume-patch)
+* [SETTING UP OPENCORE GUI](#setting-up-opencore-gui)
+* [CREDITS](#credits)
+
+</details>
+<!-- AUTO-GENERATED-CONTENT:END -->
+
 
 ![main](images/main.jpg)
 
@@ -46,19 +62,19 @@ Some informations (Serial Number, MLB, ROM...) have been naturally changed. Upda
 
 ## TOOLS USED
 
-> [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) to generate System Serial Number and System UUID etc.
+> ### [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) to generate System Serial Number and System UUID etc.
 
 ![bios](images/gensmbios.png)
 
-> [MountEFI](https://github.com/corpnewt/MountEFI) to mount your EFI partition
+> ### [MountEFI](https://github.com/corpnewt/MountEFI) to mount your EFI partition
 
 ![mount](images/mountefi.png)
 
-> [SSDTTime](https://github.com/corpnewt/SSDTTime) to dump DSDTs and create SSDTs
+> ### [SSDTTime](https://github.com/corpnewt/SSDTTime) to dump DSDTs and create SSDTs
 
 ![ssdt](images/ssttime.png)
 
-> [ProperTree](https://github.com/corpnewt/ProperTree) a cross-platform GUI plist editor
+> ### [ProperTree](https://github.com/corpnewt/ProperTree) a cross-platform GUI plist editor
 
 ![tree](images/propertree.png)
 
@@ -87,7 +103,7 @@ I used [OpenCore Legacy Patcher (OCLP)](https://github.com/dortania/OpenCore-Leg
 > - It should automatically detects which patch is available for the system, in my case, `Nvidia Kepler`.
 > - Hit on `Start Root Patching` and reboot the system.
 
-## SETTING UP OPENCORE'S GUI
+## SETTING UP OPENCORE GUI
 
 ![multiboot](images/26192629.png)
 
@@ -103,3 +119,9 @@ A few things to do to get everythings to work smoothly:
 > - In `Misc`, change -> Boot -> Pickervariant: `canemdormienti\Antebellum`
 
 It is included in my EFI folder if you decide to use it.
+
+## CREDITS
+
+- All thanks to the [Dortania Team](https://dortania.github.io/OpenCore-Install-Guide/misc/credit.html) for their massive and incredible work.
+
+- Thanks to the incredible community of [/r/hackintosh/](https://www.reddit.com/r/hackintosh/)
