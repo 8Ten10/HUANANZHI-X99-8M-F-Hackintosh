@@ -2,7 +2,7 @@
 
 ![main](images/main.jpg)
 
-![neo](images/neofetch.png)
+![neo](images/neo.png)
 This repository contains my personal EFI configuration for my custom build.
 
 This is a multiboot system, with each OS (`Mac OS Monterey 12.4`, `Windows 11`, `Ubuntu 22 LTS`) running on its own storage. 
