@@ -45,27 +45,32 @@ Some informations (Serial Number, MLB, ROM...) have been naturally changed. Upda
 
 ## TOOLS USED
 
-[GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) to generate System Serial Number and System UUID etc.
+> [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) to generate System Serial Number and System UUID etc.
 
 ![bios](images/gensmbios.png)
 
-[MountEFI](https://github.com/corpnewt/MountEFI) to mount your EFI partition
+> [MountEFI](https://github.com/corpnewt/MountEFI) to mount your EFI partition
 
 ![mount](images/mountefi.png)
 
-[SSDTTime](https://github.com/corpnewt/SSDTTime) to dump DSDTs and create SSDTs
+> [SSDTTime](https://github.com/corpnewt/SSDTTime) to dump DSDTs and create SSDTs
 
 ![ssdt](images/ssttime.png)
 
-[ProperTree](https://github.com/corpnewt/ProperTree) a cross-platform GUI plist editor
+> [ProperTree](https://github.com/corpnewt/ProperTree) a cross-platform GUI plist editor
 
 ![tree](images/propertree.png)
 
 ## MISCELLANEOUS
 
 As stated above, I followed [Dortania's OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/) 
+
 Keep in mind that your build might be different from mine because of all different components. Follow the guide accordingly. 
+
 My CPU is `Haswell E` so I followed [this PART of the guide](https://dortania.github.io/Getting-Started-With-ACPI/ssdt-methods/ssdt-prebuilt.html#haswell-and-broadwell-e) . You could use Prebuilt SSDTs, it will work but will also make your system boot slowly because of way too many bloats. I would recommend doing it manually (compiling and decompoling) or using an automated tool such as SSDTTime.
+
+You should Always do a `Clean Snapshot` (Cmd+Shift+R) with Propertree after any modification in your EFI folder.
+
 
 ## POST INSTALL VOLUME PATCH
 
