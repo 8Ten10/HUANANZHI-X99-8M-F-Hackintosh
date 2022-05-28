@@ -14,10 +14,16 @@ I would recommend upgrading your BIOS if it is not on the latest version [FROM T
 
 Some informations (Serial Number, MLB, ROM...) have been naturally changed. Update your `Config.plist` accordingly.
 
+![main](images/main.jpg)
+
+![neo](images/2.png)
+
+
+
 ## Table of Contents
 <!-- AUTO-GENERATED-CONTENT:START (TOC:collapse=true&collapseText="Click to expand") -->
 <details>
-<summary>Click to expand</summary>
+<summary>CLICK TO EXPAND</summary>
   
 * [THE BUILD](#the-build)
 * [BIOS SETTING](#bios-setting)
@@ -31,9 +37,7 @@ Some informations (Serial Number, MLB, ROM...) have been naturally changed. Upda
 <!-- AUTO-GENERATED-CONTENT:END -->
 
 
-![main](images/main.jpg)
 
-![neo](images/2.png)
 
 ## THE BUILD
 
