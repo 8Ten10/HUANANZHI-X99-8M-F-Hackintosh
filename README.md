@@ -1,5 +1,8 @@
 #  HUANANZHI X99-8M-F Hackintosh
 
+![main](images/main.jpg)
+
+![neofetch](images/neofetch.png)
 This repository contains my personal EFI configuration for my custom build.
 
 This is a multiboot system, with each OS (`Mac OS Monterey 12.4`, `Windows 11`, `Ubuntu 22 LTS`) running on its own storage. 
@@ -27,25 +30,33 @@ Some informations (Serial Number, MLB, ROM...) have been naturally changed. Upda
 
 ## BIOS SETTING
 
-* Serial Port : Disabled
-* CSM Support: Enabled
-* BootOption: UEFI and Legacy
-* XHCI/EHCI Hand-off: Enabled
-* VTD: Disabled
-* Intel VT: Enabled
-* Secure boot: Disabled
-* Fast boot: Disabled
+* Serial Port : `Disabled`
+* CSM Support: `Enabled`
+* BootOption: `UEFI and Legacy`
+* XHCI/EHCI Hand-off: `Enabled`
+* VTD: `Disabled`
+* Intel VT: `Enabled`
+* Secure boot: `Disabled`
+* Fast boot: `Disabled`
 
 
 ## TOOLS USED
 
 [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) to generate System Serial Number and System UUID etc.
 
+![bios](images/gensmbios.png)
+
+[MountEFI](https://github.com/corpnewt/MountEFI) to mount your EFI partition
+
+![mount](images/mountefi.png)
 
 [SSDTTime](https://github.com/corpnewt/SSDTTime) to dump DSDTs and create SSDTs
 
+![ssdt](images/ssttime.png)
+
 [ProperTree](https://github.com/corpnewt/ProperTree) a cross-platform GUI plist editor
 
+![tree](images/propertree.png)
 
 ## MISCELLANEOUS
 
@@ -69,7 +80,9 @@ I used [OpenCore Legacy Patcher (OCLP)](https://github.com/dortania/OpenCore-Leg
 
 ## SETTING UP OPENCORE'S GUI
 
-You can make Opencore looks visually sweet as [IT FULLY SUPPORTS THEME.](https://dortania.github.io/OpenCore-Post-Install/cosmetic/gui.html#setting-up-opencore-s-gui) 
+![multiboot](images/26192629.png)
+
+You can make Opencore looks visually sweet as [IT FULLY SUPPORTS THEMES.](https://dortania.github.io/OpenCore-Post-Install/cosmetic/gui.html#setting-up-opencore-s-gui) 
 
 The theme I use is called `Antebellum`, and is available here https://github.com/canemdormienti/Opencore-Opencanopy-Themes/tree/main/Antebellum
 
