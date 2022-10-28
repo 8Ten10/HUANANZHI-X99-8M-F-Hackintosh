@@ -921,7 +921,7 @@
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
 				<key>boot-args</key>
-				<string>-v keepsyms=1 debug=0x100 npci=0x2000</string>
+				<string>-v keepsyms=1 debug=0x100 npci=0x2000 amfi_get_out_of_my_way=0x1 ipc_control_port_options=0</string>
 				<key>csr-active-config</key>
 				<data>7w8AAA==</data>
 				<key>prev-lang:kbd</key>
