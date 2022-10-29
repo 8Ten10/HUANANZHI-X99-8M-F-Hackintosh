@@ -4,9 +4,9 @@
 
 This repository contains my personal EFI configuration for my custom build.
 
-This is a multiboot system, with each OS (`Mac OS Monterey 12.4`, `Windows 11`, `Ubuntu 22 LTS`) running on its own storage. 
+This is a multiboot system, with each OS (`Mac OS Ventura 13.0`, `Windows 11`, `Ubuntu 22 LTS`) running on its own storage. 
 
-[Opencore 0.8.0](https://github.com/acidanthera/OpenCorePkg) is the bootloader used. Although Opencore easily boots all the OSes, I tend to only boot MAC OS through it. I prefer to boot Windows and Ubuntu through the BIOS for better performance. 
+[Opencore 0.8.5](https://github.com/acidanthera/OpenCorePkg) is the bootloader used. Although Opencore easily boots all the OSes, I tend to only boot MAC OS through it. I prefer to boot Windows and Ubuntu through the BIOS for better performance. 
 
 The guide is based on [Dortania's OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/) and my personal experience.
 
@@ -15,7 +15,7 @@ I would recommend upgrading your BIOS if it is not on the latest version [FROM T
 Some informations (Serial Number, MLB, ROM...) have been naturally changed. Update your `Config.plist` accordingly.
 
 <p align="center"> <img width="750" height="650" src="images/main.jpg"> </p>
-<img src="images/2.png">
+<img src="images/3.png">
 
 
 ## Table of Contents
