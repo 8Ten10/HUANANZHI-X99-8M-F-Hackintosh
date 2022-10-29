@@ -1,6 +1,6 @@
 #  HUANANZHI X99-8M-F Hackintosh
 
-![npm](https://img.shields.io/badge/Built-Passing-orange.svg) ![npm](https://img.shields.io/badge/Bootloader-Opencore-blue) ![npm](https://img.shields.io/badge/Support%20MacOS-12.4-yellow) ![npm](https://img.shields.io/badge/Built%20by-Kevin%20T-green) 
+![npm](https://img.shields.io/badge/Built-Passing-orange.svg) ![npm](https://img.shields.io/badge/Bootloader-Opencore-blue) ![npm](https://img.shields.io/badge/Support%20Mac%20OS-13.0-yellow) ![npm](https://img.shields.io/badge/Built%20by-Kevin%20T-green) 
 
 This repository contains my personal EFI configuration for my custom build.
 
@@ -15,7 +15,7 @@ I would recommend upgrading your BIOS if it is not on the latest version [FROM T
 Some informations (Serial Number, MLB, ROM...) have been naturally changed. Update your `Config.plist` accordingly.
 
 <p align="center"> <img width="750" height="650" src="images/main.jpg"> </p>
-<img src="images/2.png">
+<img src="images/3.png">
 
 
 ## Table of Contents
