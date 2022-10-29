@@ -15,7 +15,7 @@ I would recommend upgrading your BIOS if it is not on the latest version [FROM T
 Some informations (Serial Number, MLB, ROM...) have been naturally changed. Update your `Config.plist` accordingly.
 
 <p align="center"> <img width="750" height="650" src="images/main.jpg"> </p>
-<img src="images/3.png">
+<img src="images/2.png">
 
 
 ## Table of Contents
