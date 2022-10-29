@@ -41,7 +41,7 @@ Some informations (Serial Number, MLB, ROM...) have been naturally changed. Upda
 
 * **CPU:** Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz
 * **Motherboard:** [HUANANZHI X99 8M F](http://www.huananzhi.com/html/1/184/185/551.html) (I got it cheap from China and it supports ECC/REG RAM!!)
-* **Memory:** Samsung LRDIMM 1x 32GB DDR4 ECC 1866MHZ
+* **Memory:** Samsung LRDIMM 2x 32GB DDR4 ECC 1866MHZ
 * **Storage (macOS):** x1 Micron 1100 1TB 2.5" Sata SSD (Shoutout to [/r/hardwareswap](https://www.reddit.com/r/hardwareswap/) )
 * **Storage (Windows):** Inland Professional SATA 240GB SSD (Free at Microcenter)
 * **Storage (Ubuntu):** Inland Professional SATA 240GB SSD
