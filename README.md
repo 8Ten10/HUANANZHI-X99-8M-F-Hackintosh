@@ -16,6 +16,7 @@ Some informations (Serial Number, MLB, ROM...) have been naturally changed. Upda
 
 <p align="center"> <img width="750" height="650" src="images/main.jpg"> </p>
 <img src="images/3.png">
+<p align="center"> <img src="images/3.png"> </p>
 
 
 ## Table of Contents
