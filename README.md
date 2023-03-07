@@ -4,9 +4,9 @@
 
 This repository contains my personal EFI configuration for my custom build.
 
-This is a multiboot system, with each OS (`Mac OS Ventura 13.0`, `Windows 11`, `Ubuntu 22 LTS`) running on its own storage. 
+This is a multiboot system, with each OS (`Mac OS Ventura 13.2.1`, `Windows 11`, `Ubuntu 22 LTS`) running on its own storage. 
 
-[Opencore 0.8.5](https://github.com/acidanthera/OpenCorePkg) is the bootloader used. Although Opencore easily boots all the OSes, I tend to only boot MAC OS through it. I prefer to boot Windows and Ubuntu through the BIOS for better performance. 
+[Opencore 0.9.0](https://github.com/acidanthera/OpenCorePkg) is the bootloader used. Although Opencore easily boots all the OSes, I tend to only boot MAC OS through it. I prefer to boot Windows and Ubuntu through the BIOS for better performance. 
 
 The guide is based on [Dortania's OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/) and my personal experience.
 
@@ -15,7 +15,7 @@ I would recommend upgrading your BIOS if it is not on the latest version [FROM T
 Some informations (Serial Number, MLB, ROM...) have been naturally changed. Update your `Config.plist` accordingly.
 
 <p align="center"> <img width="750" height="650" src="images/main.jpg"> </p>
-<p align="center"> <img src="images/3.png"> </p>
+<p align="center"> <img src="images/about.png"> </p>
 
 
 ## Table of Contents
@@ -110,7 +110,7 @@ I used [OpenCore Legacy Patcher (OCLP)](https://github.com/dortania/OpenCore-Leg
 
 ## SETTING UP OPENCORE GUI
 
-![multiboot](images/26192629.png)
+![multiboot](images/28160023.png)
 
 You can make Opencore looks visually sweet as [IT FULLY SUPPORTS THEMES.](https://dortania.github.io/OpenCore-Post-Install/cosmetic/gui.html#setting-up-opencore-s-gui) 
 
