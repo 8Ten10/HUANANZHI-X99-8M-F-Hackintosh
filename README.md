@@ -120,7 +120,7 @@ I used [OpenCore Legacy Patcher (OCLP)](https://github.com/dortania/OpenCore-Leg
 
 You could get Opencore to look nicer as [THEME IS FULLY SUPPORTED.](https://dortania.github.io/OpenCore-Post-Install/cosmetic/gui.html#setting-up-opencore-s-gui) 
 
-The theme I use is called `Antebellum`, and can be grabbed from here https://github.com/canemdormienti/Opencore-Opencanopy-Themes/tree/main/Antebellum
+The theme I used is called `Antebellum` and can be grabbed from here https://github.com/canemdormienti/Opencore-Opencanopy-Themes/tree/main/Antebellum
 
 A few things to change to get everythings working smoothly:
 
