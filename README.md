@@ -94,7 +94,7 @@ Always do a `Clean Snapshot` (Cmd+Shift+R) with Propertree after making any chan
 ## POST INSTALL VOLUME PATCH
 
 **Update**
-I have recently upgrade my GPU to an RX 580. So this step is not anymore applicable in my case. However, I will still let this step be as someone else might come to need it.
+/// I have recently upgrade my GPU to an RX 580. So this step is not anymore applicable in my case. However, I will still let it be. It might come handy for someone else. ///
 
 
 
