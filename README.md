@@ -2,17 +2,17 @@
 
 ![npm](https://img.shields.io/badge/Built-Passing-orange.svg) ![npm](https://img.shields.io/badge/Bootloader-Opencore-blue) ![npm](https://img.shields.io/badge/Support%20Mac%20OS-13.0-yellow) ![npm](https://img.shields.io/badge/Built%20by-Kevin%20T-green) 
 
-This repository contains my personal EFI configuration for my custom build.
+This repository contains my EFI configuration for my custom build.
 
-This is a multiboot system, with each OS (`Mac OS Ventura 13.2.1`, `Windows 11`, `Ubuntu 22 LTS`) running on its own storage. 
+This is a multiboot system, with each OS (`Mac OS Ventura 13.2.1`, `Windows 11`, `Ubuntu 22 LTS`) running fron its own storage device. 
 
-[Opencore 0.9.0](https://github.com/acidanthera/OpenCorePkg) is the bootloader used. Although Opencore easily boots all the OSes, I tend to only boot MAC OS through it. I prefer to boot Windows and Ubuntu through the BIOS for better performance. 
+[Opencore 0.9.0](https://github.com/acidanthera/OpenCorePkg) is the most recent version deployed. Although it could easily all the OSes, I tend to only boot MAC OS from it to avoid any drop in performances. 
 
 The guide is based on [Dortania's OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/) and my personal experience.
 
-I would recommend upgrading your BIOS if it is not on the latest version [FROM THE OFFICIAL SUPPORT PAGE](http://www.huananzhi.com/html/1/184/185/551.html)
+I would recommend upgrading the BIOS if it is not on the more recent version [FROM THE OFFICIAL SUPPORT PAGE](http://www.huananzhi.com/html/1/184/185/551.html)
 
-Some informations (Serial Number, MLB, ROM...) have been naturally changed. Update your `Config.plist` accordingly.
+Some informations (Serial Number, MLB, ROM...) have been obfuscated. Update your `Config.plist` accordingly.
 
 <p align="center"> <img width="750" height="650" src="images/main.jpg"> </p>
 <p align="center"> <img src="images/about.png"> </p>
@@ -45,7 +45,7 @@ Some informations (Serial Number, MLB, ROM...) have been naturally changed. Upda
 * **Storage (macOS):** x1 Micron 1100 1TB 2.5" Sata SSD (Shoutout to [/r/hardwareswap](https://www.reddit.com/r/hardwareswap/) )
 * **Storage (Windows):** Inland Professional SATA 240GB SSD (Free at Microcenter)
 * **Storage (Ubuntu):** Inland Professional SATA 240GB SSD
-* **GPU:** NVIDIA GeForce GT 710 2GB ( Not for anything Graphic intensive. I only got it for my project, nice for Graphic Acceleration )
+* **GPU:** *Upgraded to an RX 580* --- NVIDIA GeForce GT 710 2GB ( Not for anything Graphic intensive. I only got it for my project, nice for Graphic Acceleration )
 * **Power Supply:** [EVGA SuperNOVA 650 Ga 650W](https://www.amazon.com/EVGA-Supernova-Modular-Warranty-220-GA-0650-X1/dp/B07WW1XK45)
 * **Case:** [Montech Flyer Micro ATX](https://www.newegg.com/black-montech-flyer-atx-mid-tower/p/2AM-00CN-00001)
 * **Audio:** Realtek ALC662
@@ -68,7 +68,7 @@ Some informations (Serial Number, MLB, ROM...) have been naturally changed. Upda
 
 ![bios](images/gensmbios.png)
 
-> ### [MountEFI](https://github.com/corpnewt/MountEFI) to mount your EFI partition
+> ### [MountEFI](https://github.com/corpnewt/MountEFI) to mount the EFI partition
 
 ![mount](images/mountefi.png)
 
@@ -76,22 +76,27 @@ Some informations (Serial Number, MLB, ROM...) have been naturally changed. Upda
 
 ![ssdt](images/ssttime.png)
 
-> ### [ProperTree](https://github.com/corpnewt/ProperTree) a cross-platform GUI plist editor
+> ### [ProperTree](https://github.com/corpnewt/ProperTree) a very nice GUI plist editor
 
 ![tree](images/propertree.png)
 
 ## MISCELLANEOUS
 
-As stated above, I followed [Dortania's OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/) 
+As I have mentioned earlier, I followed [Dortania's OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/) as my main reference. 
 
 Keep in mind that your build might be different from mine because of all different components. Follow the guide accordingly. 
 
 My CPU is `Haswell E` so I followed [this PART of the guide](https://dortania.github.io/Getting-Started-With-ACPI/ssdt-methods/ssdt-prebuilt.html#haswell-and-broadwell-e) . You could use Prebuilt SSDTs, it will work but will also make your system boot slowly because of way too many bloats. I would recommend doing it manually (compiling and decompoling) or using an automated tool such as SSDTTime.
 
-You should Always do a `Clean Snapshot` (Cmd+Shift+R) with Propertree after any modification in your EFI folder.
+Always do a `Clean Snapshot` (Cmd+Shift+R) with Propertree after making any change in the EFI folder.
 
 
 ## POST INSTALL VOLUME PATCH
+
+**Update**
+I have recently upgrade my GPU to an RX 580. So this step is not anymore applicable in my case. However, I will still let this step be as someone else might come to need it.
+
+
 
 `ONLY APPLY THIS PATCH IF YOU ARE RUNNING ON MAC OS 12 MONTEREY!!`
 
@@ -112,18 +117,18 @@ I used [OpenCore Legacy Patcher (OCLP)](https://github.com/dortania/OpenCore-Leg
 
 ![multiboot](images/28160023.png)
 
-You can make Opencore looks visually sweet as [IT FULLY SUPPORTS THEMES.](https://dortania.github.io/OpenCore-Post-Install/cosmetic/gui.html#setting-up-opencore-s-gui) 
+You could get Opencore to look nicer as [THEME IS FULLY SUPPORTED.](https://dortania.github.io/OpenCore-Post-Install/cosmetic/gui.html#setting-up-opencore-s-gui) 
 
-The theme I use is called `Antebellum`, and is available here https://github.com/canemdormienti/Opencore-Opencanopy-Themes/tree/main/Antebellum
+The theme I use is called `Antebellum`, and can be grabbed from here https://github.com/canemdormienti/Opencore-Opencanopy-Themes/tree/main/Antebellum
 
-A few things to do to get everythings to work smoothly:
+A few things to change to get everythings working smoothly:
 
 > - Add `OpenCanopy.efi` to `EFI/OC/Drivers`
 > - In `Misc`, change -> Boot -> PickerMode: `External` 
 > - In `Misc`, change -> Boot -> PickerAttributes: `144`
 > - In `Misc`, change -> Boot -> Pickervariant: `canemdormienti\Antebellum`
 
-It is included in my EFI folder if you decide to use it.
+I have it included in my EFI folder if you decide to use it.
 
 ## CREDITS
 
