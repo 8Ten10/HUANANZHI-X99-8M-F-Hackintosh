@@ -133,7 +133,7 @@ I have it included in my EFI folder if you decide to use it.
 
 ## CREDITS
 
-- All thanks to the [Dortania Team](https://dortania.github.io/OpenCore-Install-Guide/misc/credit.html) for their massive and incredible work.
+- All thanks to the [Dortania Team](https://dortania.github.io/OpenCore-Install-Guide/misc/credit.html) for their incredible work.
 
 - Thanks to the incredible community of [/r/hackintosh/](https://www.reddit.com/r/hackintosh/)
 
