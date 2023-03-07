@@ -82,7 +82,7 @@ Some informations (Serial Number, MLB, ROM...) have been obfuscated. Update your
 
 ## MISCELLANEOUS
 
-As I have mentioned earlier, I followed [Dortania's OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/) as my main reference. 
+As I mentioned earlier, I followed [Dortania's OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/) as my main reference. 
 
 Keep in mind that your build might be different from mine because of all different components. Follow the guide accordingly. 
 
