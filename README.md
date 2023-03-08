@@ -51,7 +51,7 @@ Some informations (Serial Number, MLB, ROM...) have been obfuscated. Update your
 * **Audio:** Realtek ALC662
 * **Wireless device:** DELL DW1560 (BCM94352Z)
 
-## BIOS SETTING
+## UEFI SETTING
 
 * Serial Port : `Disabled`
 * CSM Support: `Enabled`
