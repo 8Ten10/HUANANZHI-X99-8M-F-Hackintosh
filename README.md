@@ -45,10 +45,11 @@ Some informations (Serial Number, MLB, ROM...) have been obfuscated. Update your
 * **Storage (macOS):** x1 Micron 1100 1TB 2.5" Sata SSD (Shoutout to [/r/hardwareswap](https://www.reddit.com/r/hardwareswap/) )
 * **Storage (Windows):** Inland Professional SATA 240GB SSD (Free at Microcenter)
 * **Storage (Ubuntu):** Inland Professional SATA 240GB SSD
-* **GPU:** *Upgraded to an RX 580* --- NVIDIA GeForce GT 710 2GB ( Not for anything Graphic intensive. I only got it for my project, nice for Graphic Acceleration )
+* **GPU:** --- *Upgraded to a RX 580* --- NVIDIA GeForce GT 710 2GB ( Not for anything Graphic intensive. I only got it for my project, nice for Graphic Acceleration )
 * **Power Supply:** [EVGA SuperNOVA 650 Ga 650W](https://www.amazon.com/EVGA-Supernova-Modular-Warranty-220-GA-0650-X1/dp/B07WW1XK45)
 * **Case:** [Montech Flyer Micro ATX](https://www.newegg.com/black-montech-flyer-atx-mid-tower/p/2AM-00CN-00001)
 * **Audio:** Realtek ALC662
+* **Wireless device:** DELL DW1560 (BCM94352Z)
 
 ## BIOS SETTING
 
@@ -95,7 +96,7 @@ Always do a `Clean Snapshot` (Cmd+Shift+R) with Propertree after making any chan
 
 **Update**
 
-/// I recently upgraded my GPU to an RX 580. So this step is not anymore applicable in my case. However, I will still let it be. It might come handy for someone else. ///
+/// I recently upgraded my GPU to a RX 580. So this step is not anymore applicable in my case. However, I will let it remain up. It might come handy for someone else. ///
 
 
 
@@ -118,9 +119,9 @@ I used [OpenCore Legacy Patcher (OCLP)](https://github.com/dortania/OpenCore-Leg
 
 ![multiboot](images/28160023.png)
 
-You could get Opencore to look nicer as [THEME IS FULLY SUPPORTED.](https://dortania.github.io/OpenCore-Post-Install/cosmetic/gui.html#setting-up-opencore-s-gui) 
+You could get Opencore to look nicer. [THEMES ARE FULLY SUPPORTED.](https://dortania.github.io/OpenCore-Post-Install/cosmetic/gui.html#setting-up-opencore-s-gui) 
 
-The theme I used is called `Antebellum` and can be grabbed from here https://github.com/canemdormienti/Opencore-Opencanopy-Themes/tree/main/Antebellum
+The theme I use is called `Antebellum` and can be grabbed from here https://github.com/canemdormienti/Opencore-Opencanopy-Themes/tree/main/Antebellum
 
 A few things to change to get everythings working smoothly:
 
