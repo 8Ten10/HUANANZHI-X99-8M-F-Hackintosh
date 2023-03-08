@@ -4,7 +4,7 @@
 
 This repository contains my EFI configuration for my custom build.
 
-This is a multiboot system, with each OS (`Mac OS Ventura 13.2.1`, `Windows 11`, `Ubuntu 22 LTS`) running fron its own storage device. 
+This is a multiboot system, with each OS (`Mac OS Ventura 13.2.1`, `Windows 11`, `RedHat 9.1`) running fron its own storage device. 
 
 [Opencore 0.9.0](https://github.com/acidanthera/OpenCorePkg) is the most recent version deployed. Although it could easily all the OSes, I tend to only boot MAC OS from it to avoid any drop in performances. 
 
