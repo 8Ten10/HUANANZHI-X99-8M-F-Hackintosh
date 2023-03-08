@@ -123,7 +123,7 @@ You could get Opencore to look nicer. [THEMES ARE FULLY SUPPORTED.](https://dort
 
 The theme I use is called `Antebellum` and can be grabbed from here https://github.com/canemdormienti/Opencore-Opencanopy-Themes/tree/main/Antebellum
 
-A few things to change to get everythings working smoothly:
+A few things to change to get everything to work properly:
 
 > - Add `OpenCanopy.efi` to `EFI/OC/Drivers`
 > - In `Misc`, change -> Boot -> PickerMode: `External` 
