@@ -102,7 +102,7 @@ Always do a `Clean Snapshot` (Cmd+Shift+R) with Propertree after making any chan
 
 `ONLY APPLY THIS PATCH IF YOU ARE RUNNING ON MAC OS 12 MONTEREY!!`
 
-Unfortunalely, Apple has dropped native support for `Kepler dGPUs (600 - 800 series) on Monterey. The GT 710 being one of them, the only option available to get graphic acceleration is to patch the OS with specific tools. Remember that this only necessary if you are running on `Monterey and up`. It is natively supported by any OS below Monterey.
+Unfortunalely, Apple has dropped native support for `Kepler dGPUs (600 - 800 series) on Monterey. The GT 710 being one of them, the only option available to get graphic acceleration is to patch the OS with specific tools. Remember that this only necessary if you are running on `Monterey and up`. It is still natively supported on any OS below Monterey.
 
 I used [OpenCore Legacy Patcher (OCLP)](https://github.com/dortania/OpenCore-Legacy-Patcher/releases) , but [Geforce Kepler patcher](https://github.com/chris1111/Geforce-Kepler-patcher) from `Christ1111` is another good option. They both install Nvidia binaries files for macOS Monterey. The choice is yours.
 > - Dowload [OpenCore Legacy Patcher (OCLP)](https://github.com/dortania/OpenCore-Legacy-Patcher/releases)
