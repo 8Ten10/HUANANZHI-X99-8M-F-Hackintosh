@@ -4,15 +4,15 @@
 
 This repository contains my EFI configuration for my custom build.
 
-This is a multiboot system, with each OS (`Mac OS Ventura 13.2.1`, `Windows 11`, `RedHat 9.1`) running fron its own storage device. 
+This is a multiboot system, with each OS (`Mac OS Ventura 13.2.1`, `Windows 11`, `RedHat 9.1`) running on its own storage device. 
 
-[Opencore 0.9.0](https://github.com/acidanthera/OpenCorePkg) is the most recent version deployed. Although it could easily all the OSes, I tend to only boot MAC OS from it to avoid any drop in performances. 
+[Opencore 0.9.0](https://github.com/acidanthera/OpenCorePkg) is the most recent version deployed.
 
 The guide is based on [Dortania's OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/) and my personal experience.
 
 I would recommend upgrading the BIOS if it is not on the more recent version [FROM THE OFFICIAL SUPPORT PAGE](http://www.huananzhi.com/html/1/184/185/551.html)
 
-Some informations (Serial Number, MLB, ROM...) have been obfuscated. Update your `Config.plist` accordingly.
+A few information (Serial Number, MLB, ROM...) has been naturally obfuscated. Update your `Config.plist` accordingly.
 
 <p align="center"> <img width="750" height="650" src="images/main.jpg"> </p>
 <p align="center"> <img src="images/about.png"> </p>
