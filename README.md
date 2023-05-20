@@ -8,7 +8,7 @@ This is a multiboot system, with each OS (`Mac OS Ventura 13.2.1`, `Windows 11`,
 
 [Opencore 0.9.0](https://github.com/acidanthera/OpenCorePkg) is the most recent version deployed.
 
-The guide is based on [Dortania's OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/) and my personal experience.
+The guide is based on my personal experience and Dortania's Doc.
 
 I would recommend upgrading the BIOS if it is not on the more recent version [FROM THE OFFICIAL SUPPORT PAGE](http://www.huananzhi.com/html/1/184/185/551.html)
 
@@ -102,7 +102,7 @@ Always do a `Clean Snapshot` (Cmd+Shift+R) with Propertree after making any chan
 
 `ONLY APPLY THIS PATCH IF YOU ARE RUNNING ON MAC OS 12 MONTEREY!!`
 
-Unfortunalely, Apple has dropped native support for `Kepler dGPUs (600 - 800 series) on Monterey. The GT 710 being one of them, the only option available to get graphic acceleration is to patch the OS with specific tools. Remember that this only necessary if you are running on `Monterey and up`. It is still natively supported on any OS below Monterey.
+Unfortunalely, Apple has dropped native support for `Kepler dGPUs` (600 - 800 series) on Monterey. The GT 710 being one of them, the only option available to get graphic acceleration is to patch the OS with some specific tools. Remember that this only necessary if you are running `Monterey and up`. It is still natively supported on any OS below Monterey.
 
 I used [OpenCore Legacy Patcher (OCLP)](https://github.com/dortania/OpenCore-Legacy-Patcher/releases) , but [Geforce Kepler patcher](https://github.com/chris1111/Geforce-Kepler-patcher) from `Christ1111` is another good option. They both install Nvidia binaries files for macOS Monterey. The choice is yours.
 > - Dowload [OpenCore Legacy Patcher (OCLP)](https://github.com/dortania/OpenCore-Legacy-Patcher/releases)
