@@ -4,7 +4,7 @@
 
 This repository contains my EFI configuration for my custom build.
 
-This is a multiboot system, with each OS (`Mac OS Ventura 13.2.1`, `Windows 11`, `RedHat 9.1`) running on its own storage device. 
+This is a multiboot system, with each OS (`Mac OS 14.0 Sonoma`, `Windows 11`, `RedHat 9.1`) running on its own storage device. 
 
 [Opencore 0.9.0](https://github.com/acidanthera/OpenCorePkg) is the most recent version deployed.
 
@@ -15,7 +15,7 @@ I would recommend upgrading the BIOS if it is not on the more recent version [FR
 A few information (Serial Number, MLB, ROM...) has been naturally obfuscated. Update your `Config.plist` accordingly.
 
 <p align="center"> <img width="750" height="650" src="images/main.jpg"> </p>
-<p align="center"> <img src="images/about.png"> </p>
+<p align="center"> <img src="images/about2.png"> </p>
 
 
 ## Table of Contents
@@ -44,7 +44,7 @@ A few information (Serial Number, MLB, ROM...) has been naturally obfuscated. Up
 * **Memory:** Samsung LRDIMM 2x 32GB DDR4 ECC 1866MHZ
 * **Storage (macOS):** x1 Micron 1100 1TB 2.5" Sata SSD (Shoutout to [/r/hardwareswap](https://www.reddit.com/r/hardwareswap/) )
 * **Storage (Windows):** Inland Professional SATA 240GB SSD (Free at Microcenter)
-* **Storage (Ubuntu):** Inland Professional SATA 240GB SSD
+* **Storage (RHEL):** Inland Professional SATA 240GB SSD
 * **GPU:** --- *Upgraded to a RX 580* --- NVIDIA GeForce GT 710 2GB ( Not for anything Graphic intensive. I only got it for my project, nice for Graphic Acceleration )
 * **Power Supply:** [EVGA SuperNOVA 650 Ga 650W](https://www.amazon.com/EVGA-Supernova-Modular-Warranty-220-GA-0650-X1/dp/B07WW1XK45)
 * **Case:** [Montech Flyer Micro ATX](https://www.newegg.com/black-montech-flyer-atx-mid-tower/p/2AM-00CN-00001)
