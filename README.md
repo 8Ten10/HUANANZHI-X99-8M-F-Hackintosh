@@ -6,7 +6,7 @@ This repository contains my EFI configuration for my custom build.
 
 This is a multiboot system, with each OS (`Mac OS 14.0 Sonoma`, `Windows 11`, `RedHat 9.1`) running on its own storage device. 
 
-[Opencore 0.9.0](https://github.com/acidanthera/OpenCorePkg) is the most recent version deployed.
+[Opencore 0.9.4](https://github.com/acidanthera/OpenCorePkg) is the most recent version deployed.
 
 The guide is based on my personal experience and Dortania's Doc.
 
